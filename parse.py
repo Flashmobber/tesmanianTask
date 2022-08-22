@@ -27,8 +27,8 @@ headers = {"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko
 def login():
     login_data = {"form_type": "customer_login",
                   "utf8": "✓",
-                  "customer[email]": "ufinaid@gmail.com",
-                  "customer[password]": "izHfHeGt4!72Wpt",
+                  "customer[email]": "****d@gmail.com",
+                  "customer[password]": "*****",
                   "return_url": "/account"}
     with requests.Session() as session:
         session.get(BASE_URL)
